@@ -7,8 +7,8 @@ body{
     background-color: rgb(255, 255, 255);
 }
 .header{
-  background-color: #22223b; /* Deep navy for professionalism */
-  color: #f2e9e4; /* Light text for contrast */
+  background-color: #22223b; 
+  color: #f2e9e4; 
   display: flex;
   justify-content: space-between;
   height: 70px;
@@ -22,20 +22,20 @@ nav{
   gap: 50px;
 }
 .portfolio-heading{
-  color: #9f86c0; /* Soft purple for accent */
+  color: #9f86c0;
   padding: 16px 16px;
   font-size: xx-large;
   padding-left: 40px;
   font-weight: bold;
 }
 .nav-links a{
-    color: #f2e9e4; /* Light for links */
+    color: #f2e9e4;
     text-decoration: none;
     font-size: 20px;
     transition: color 0.2s;
 }
 .nav-links a:hover {
-    color: #9f86c0; /* Accent on hover */}
+    color: #9f86c0;}
 .about-section {
     background-color: #f2e9e4;
     color: #22223b;
@@ -97,7 +97,7 @@ nav{
 .btn {
     display: inline-block;
     padding: 0.75em 2em;
-    background: #2a9d8f; /* Professional teal */
+    background: #2a9d8f;
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
@@ -364,6 +364,12 @@ footer {
     .about-text {
         margin-bottom: 20px;
         text-align: center;
+       
+    }
+   
+    .about-buttons{
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .about-image {
         justify-content: center;
@@ -399,6 +405,7 @@ footer {
             top: 15px;
             right: 20px;
             z-index: 101;
+            color: white;
         }
         .header {
             position: relative;
